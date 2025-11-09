@@ -4,7 +4,6 @@ class Solution {
        int noOfOperations = 0;
 
        while(num1 != 0 && num2 != 0) {
-        
             if(num1 > num2 ) {
                 noOfOperations = noOfOperations + (num1/num2);
                 num1 = num1 % num2;
